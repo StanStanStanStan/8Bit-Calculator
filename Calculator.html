@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8Bit Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    
+    <div id="body">
+        <input id="display" readonly> 
+        <div id="buttons">
+            <button class="deco" onclick="addDisplay('(')">(</button>
+            <button class="deco" onclick="addDisplay(')')">)</button>
+            <button class="deco" onclick="addDisplay('%')">%</button>
+            <button class="deco" onclick="clearDisplay()">C</button>
+            <button class="deco" onclick="addDisplay('1')">1</button>
+            <button class="deco" onclick="addDisplay('2')">2</button>
+            <button class="deco" onclick="addDisplay('3')">3</button>
+            <button class="deco" onclick="addDisplay('/')">÷</button>
+            <button class="deco" onclick="addDisplay('4')">4</button>
+            <button class="deco" onclick="addDisplay('5')">5</button>
+            <button class="deco" onclick="addDisplay('6')">6</button>
+            <button class="deco" onclick="addDisplay('*')">&times;</button>
+            <button class="deco" onclick="addDisplay('7')">7</button>
+            <button class="deco" onclick="addDisplay('8')">8</button>
+            <button class="deco" onclick="addDisplay('9')">9</button>
+            <button class="deco" onclick="addDisplay('-')">-</button>
+            <button class="deco" onclick="addDisplay('0')">0</button>
+            <button class="deco" onclick="addDisplay('.')">.</button>
+            <button class="deco" onclick="calculate()">=</button>
+            <button class="deco" onclick="addDisplay('+')">+</button>
+        </div>  
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
