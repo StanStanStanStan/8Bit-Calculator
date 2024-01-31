@@ -1,0 +1,59 @@
+@font-face {
+    font-family: '8bit';
+    src: url(../fonts/pressstart-webfont.woff2) format('woff2');
+    src: url(../fonts/pressstart-webfont.woff) format('woff');
+}
+
+*{
+    font-size: 16px;
+    font-family: "8bit";
+}
+
+#body{
+    background-color: rgb(216, 216, 216);
+    width: 20rem;
+    height: 30rem;
+    margin:  10rem auto;
+    padding-top: 15px;
+    border: 3px solid black;
+}
+#display{
+    background-color: white;
+    width: 18rem;
+    height: 4rem;
+    margin: auto;
+    border: 3px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 0.5rem;
+}
+
+#buttons{
+    display: grid;
+    grid-template-columns: 4rem 4rem 4rem 4rem ;
+    grid-row-gap: 0.4rem;
+    grid-column-gap: 0.4rem;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.deco{
+    border: 3px solid black;
+    width: 4rem;
+    height: 4rem;
+    transition: all .2s ease-in-out; 
+    font-size: 1.5rem;
+}
+
+.deco:hover{
+    transform: scale(1.05); 
+    cursor: pointer;
+}
+
+#display{
+    text-align: right;
+    color: black;
+    font-size: 2rem;
+    
+}
